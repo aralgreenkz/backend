@@ -12,7 +12,7 @@ class Settings:
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO").upper()
     
     # 直接使用提供的数据库URL
-    DATABASE_URL: str = "mysql://root:mtQEezVaOppMjRVWUCZyRxTPVtHYDHgl@gondola.proxy.rlwy.net:37059/railway"
+    DATABASE_URL: str = "mysql://root:DhIUEVqoIcpRsQUuoowPXiisYrsotnTN@hopper.proxy.rlwy.net:23113/railway"
     
     # 从DATABASE_URL解析各个组件
     def __init__(self):
